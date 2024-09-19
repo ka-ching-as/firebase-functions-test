@@ -9,7 +9,7 @@ import {
   getBaseCloudEvent,
   extractRef,
 } from '../helpers';
-import { Change } from 'firebase-functions';
+import { Change } from 'firebase-functions/v1';
 import { makeDataSnapshot } from '../../../providers/database';
 
 type ChangeLike = {

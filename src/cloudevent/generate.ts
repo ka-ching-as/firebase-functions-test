@@ -10,7 +10,7 @@ import {
 } from 'firebase-admin/firestore';
 import { LIST_OF_MOCK_CLOUD_EVENT_PARTIALS } from './mocks/partials';
 import { DeepPartial } from './types';
-import { Change } from 'firebase-functions';
+import { Change } from 'firebase-functions/v1';
 import merge from 'ts-deepmerge';
 
 /**

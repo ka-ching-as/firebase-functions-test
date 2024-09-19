@@ -24,12 +24,12 @@ import {
   CloudFunction as CloudFunctionV1,
   HttpsFunction,
   Runnable,
-} from 'firebase-functions';
+} from 'firebase-functions/v1';
 
 import {
   CloudFunction as CloudFunctionV2,
   CloudEvent,
-} from 'firebase-functions/v2';
+} from 'firebase-functions';
 
 import {
   CallableFunction,
